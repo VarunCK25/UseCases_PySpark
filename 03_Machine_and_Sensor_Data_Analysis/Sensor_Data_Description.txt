@@ -1,0 +1,19 @@
+Here, we shall be discussing machine and sensor data analysis using Spark SQL.
+
+Here, we have the temperatures collected every minute, from 20 top buildings all over the world.
+After this analysis, we can conclude the building in which country has the most number of temperature variation.
+
+From the files, building.csv contains the details of the top 20 buildings all over the world and HVAC.csv contains the target temperature and the actual temperature along with the building Id.
+
+HVAC (heating, ventilating/ventilation, and air conditioning) is the technology of indoor and vehicular environmental comfort.
+Its goal is to provide thermal comfort and acceptable indoor air quality.
+Through the HVAC sensors, we will get the temperature of the buildings.
+
+Here are the columns that are present in the datasets:
+
+Building.csv – BuildingID, BuildingMgr, BuildingAge, HVACproduct,Country
+
+HVAC.csv – Date, Time, TargetTemp, ActualTemp, System, SystemAge, BuildingID
+
+Now, let’s perform analysis on the HVAC dataset to obtain the temperature changes in the building.
+We are performing this analysis using Spark SQL.
