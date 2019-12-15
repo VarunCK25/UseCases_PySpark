@@ -1,0 +1,34 @@
+In this Spark SQL Use Case 911 Emergency Helpine Number Data Analysis, we will be performing analysis on the data provided the callers who had called the emergency helpline number in North America.
+
+In many countries, the public telephone network has a single emergency telephone number (sometimes known as the universal emergency telephone number or the emergency services number) that allows a caller to contact local emergency services for assistance.
+This emergency number differs from country to country and typically consists of three digits numbers that can be easily remembered and dialed quickly.
+Some countries have a different emergency number for each of the different emergency services.
+
+Here we have two data sets; one is the data that the callers has given when they called the emergency helpline number.
+
+You can download the 911 data from this link.
+
+The other data set contains the details about the zip code.
+
+The data set description for the 911 data is as follows:
+
+lat: String variable, Latitude
+lng: String variable, Longitude
+desc: String variable, Description of the Emergency Call
+zip: String variable, Zip code
+title: String variable, Title
+timeStamp: String variable, YYYY-MM-DD HH:MM:SS
+twp: String variable, Township
+addr: String variable, Address
+e: String variable, Dummy variable (always 1)
+
+
+The data set description for the zip code file is as follows:
+
+zip: String variable, Zip code
+city: String variable, City
+state: String variable, State
+latitude: String variable, Latitude
+longitude: String variable, Longitude
+timezone: String variable, Time zone
+dst: String variable, district
