@@ -1,0 +1,8 @@
+In this usecase, we will be performing analysis on the Uber dataset  in Apache spark using Python.
+
+The Uber dataset consists of 4 column: 
+
+ispatching_base_number
+date
+active_vehicles
+trips
