@@ -1,0 +1,38 @@
+There have been huge disasters throughout the history of mankind, but the magnitude of the Titanic’s disaster ranks as one of the highest.
+So much so that the subsequent disasters have always been described as “Titanic in proportion,” implying huge losses.
+Anyone who has ever read about the Titanic knows that a perfect combination of natural events and human errors had led to the sinking of the Titanic on its fateful maiden journey from Southampton to New York on April 14, 1912. 
+
+There have been several questions put forward to understand the cause(s) of the tragedy; foremost among them is, what made it sink and even more intriguing, how can a 46,000-ton ship sink to the depth of 13,000 feet in a matter of 3 hours?
+This is a mind-boggling question indeed! 
+
+There have been as many investigations as there have and is still poses too many questions and an equal types of data analysis methods have been applied to arrive at a conclusion.
+This usecase is not about analyzing why or what made the Titanic sink; it is about the data analysis of data available from Titanic.
+This Titanic data is public-ally available and the titanic data set is described below under the heading Data Set Description.
+
+Using this dataset, we will perform some data analysis and will draw out some insights, like finding the average age of male and females who died in the Titanic, and the number of males and females who died in each compartment.
+
+Data Set Description:
+
+Column 1: PassengerId
+
+Column 2: Survived  (survived=0 & died=1)
+
+Column 3: Pclass
+
+Column 4: Name
+
+Column 5: Sex
+
+Column 6: Age
+
+Column 7: SibSp
+
+Column 8: Parch
+
+Column 9: Ticket
+
+Column 10: Fare
+
+Column 11: Cabin
+
+Column 12: Embarked
